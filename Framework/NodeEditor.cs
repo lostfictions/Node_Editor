@@ -978,7 +978,7 @@ namespace NodeEditorFramework
 			return nodeCanvas;
 		}
 
-		// <summary>
+		/// <summary>
 		/// Gets a working copy of the editor state. This will break the link to the asset and thus all changes made to the working copy have to be explicitly saved.
 		/// </summary>
 		public static NodeEditorState GetWorkingCopy (NodeEditorState editorState, NodeCanvas nodeCanvas) 
